@@ -1,0 +1,76 @@
+2023-03-05 18:41:40 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-05 18:41:40 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hiber]
+2023-03-05 18:41:40 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2023-03-05 18:41:40 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2023-03-05 18:41:40 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-05 18:41:40 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-05 18:41:40 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2e3572e8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-05 18:41:40 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 18:41:40 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23502
+2023-03-05 18:41:40 ERROR SqlExceptionHelper:142 - ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Google).
+2023-03-05 18:43:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.5.6.Final
+2023-03-05 18:43:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 18:43:34 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-05 18:43:34 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hiber]
+2023-03-05 18:43:34 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2023-03-05 18:43:34 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2023-03-05 18:43:34 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-05 18:43:34 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-05 18:43:34 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3bec5821] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-05 18:43:34 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 18:43:34 WARN  UnresolvedEntityInsertActions:144 - HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([entity.Company#<null>])
+	Dependent entities: ([[entity.User#<null>]])
+	Non-nullable association(s): ([entity.User.company])
+2023-03-05 18:43:50 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.5.6.Final
+2023-03-05 18:43:50 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 18:43:50 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-05 18:43:50 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hiber]
+2023-03-05 18:43:50 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2023-03-05 18:43:50 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2023-03-05 18:43:50 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-05 18:43:51 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-05 18:43:51 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5dc0ff7d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-05 18:43:51 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 18:44:15 WARN  UnresolvedEntityInsertActions:144 - HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([entity.Company#<null>])
+	Dependent entities: ([[entity.User#<null>]])
+	Non-nullable association(s): ([entity.User.company])
+2023-03-05 18:45:00 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.5.6.Final
+2023-03-05 18:45:00 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 18:45:00 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-05 18:45:00 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hiber]
+2023-03-05 18:45:00 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2023-03-05 18:45:00 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2023-03-05 18:45:00 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-05 18:45:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-05 18:45:01 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@66236a0a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-05 18:45:01 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 18:45:01 WARN  UnresolvedEntityInsertActions:144 - HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([entity.Company#<null>])
+	Dependent entities: ([[entity.User#<null>]])
+	Non-nullable association(s): ([entity.User.company])
+2023-03-05 18:45:18 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.5.6.Final
+2023-03-05 18:45:18 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 18:45:18 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-05 18:45:18 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hiber]
+2023-03-05 18:45:18 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2023-03-05 18:45:18 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2023-03-05 18:45:18 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-05 18:45:18 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-05 18:45:18 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5634a861] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-05 18:45:18 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-05 18:45:19 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23502
+2023-03-05 18:45:19 ERROR SqlExceptionHelper:142 - ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Google).
+2023-03-05 18:46:07 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.5.6.Final
+2023-03-05 18:46:07 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-05 18:46:07 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-05 18:46:07 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/hiber]
+2023-03-05 18:46:07 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2023-03-05 18:46:07 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2023-03-05 18:46:07 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-05 18:46:07 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-05 18:46:08 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6949e948] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-05 18:46:08 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
